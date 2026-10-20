@@ -4,3 +4,4 @@
 - 'git status': Imprime el estatus actual del repositorio y sus archivos modificados.
 - 'git add': Inicia la etapa staging, actualiza en el repositorio los cambios realizados en los archivos desde el último staging.
 - 'git diff': Realiza un comparativo con la última modificación que tuvo el archivo antes de realizar 'add'
+- 'git diff --staged': Realiza un comparativo con el estatus del último commit realizado.
