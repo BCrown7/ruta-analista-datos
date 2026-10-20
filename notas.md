@@ -10,4 +10,4 @@ R: El uso de guardar archivo sobrescribe el archivo a su versión más reciente 
 R: Para seccionar y controlar los cambios realizados por periodos y tareas específicas, con fin de no mezclar distintos procesos de trabajo en un solo commit y facilitar su identificación.
 
 **Qué información guarda un commit además de los cambios en los archivos?**
-R: Hora, fecha, autor, y mensaje del commit.
+R: Hora, fecha, autor, y mensaje del commit. Adicionalmente en detalle, guarda el tree, parent y commiter.
