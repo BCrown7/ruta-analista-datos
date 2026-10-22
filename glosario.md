@@ -7,4 +7,4 @@
 - 'git diff --staged': Realiza un comparativo con el estatus del último commit realizado.
 - 'git restore --staged': Restaura el archivo añadido a 'add' con el estatus del último commit realizado.
 - 'git show': Muestra los últimos cambios realizados del último commit
-- 'git log':
+- 'git log': Muestra y descripción de los últimos registros de commit.
