@@ -11,3 +11,6 @@ R: Para seccionar y controlar los cambios realizados por periodos y tareas espec
 
 **Qué información guarda un commit además de los cambios en los archivos?**
 R: Hora, fecha, autor, y mensaje del commit. Adicionalmente en detalle, guarda el tree, parent y commiter.
+
+**¿Por qué no deberías subir los Excel reales de tu trabajo a un repo público, y por qué no basta con borrarlos después si se te escaparon?**
+R: Porque contienen información sensible de la empresa, con confidencialidad. No basta con borrarlos después porque la información aún continuaría agregada en commits pasados.

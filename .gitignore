@@ -1,0 +1,20 @@
+# Datos: nunca subir archivos reales
+datos
+datos/*
+!datos/ejemplo_*.csv
+
+# Excel en cualquier carpeta
+*.xlsx
+*.xls
+*.xslm
+
+# Archivos de caché generados por Python y Jupyter
+__pycache__/
+.ipynb_checkpoints/
+
+# Credenciales y configuración local
+.env
+
+# Archivos del sistema
+desktop.ini
+Thumbs.db
