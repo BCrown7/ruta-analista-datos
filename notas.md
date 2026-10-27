@@ -18,4 +18,5 @@ R: Porque contienen información sensible de la empresa, con confidencialidad. N
 **¿Qué hace -u y por qué solo se usa la primera vez?**
 R: Permite establecer una conexión entre la rama local y la rama main del repositorio para evitar situar argumentos en cada ocasión que se realice una carga a través de *push*.
 
-!!!
+**Qué pasaría si haces *push* sin haber hecho *pull* de un cambio remoto?
+R: El push es rechazado debido a que no puede empatar los cambios nuevos que incluye la rama local al remoto. Requiere pull para importar los cambios que contiene el repositorio remoto, y hacer una fusión con los cambios del local.
