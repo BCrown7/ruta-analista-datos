@@ -11,3 +11,4 @@
 - 'git push': Empuja la información local hacia la rama elegida en el repositorio para guardado en la nube.
 - 'git fetch': Importa los commits externos realizados al repositorio para verificación antes de importar los cambios con pull.
 - 'git branch': Lista en pantalla las ramas disponibles en el repositorio y sobre cual estás posicionado.
+- 'git switch': Crea o cambia a la rama seleccionada.
