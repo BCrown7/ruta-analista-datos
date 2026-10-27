@@ -27,3 +27,7 @@ R: Permite establecer una conexión entre la rama local y la rama main del repos
 **Qué pasaría si haces *push* sin haber hecho *pull* de un cambio remoto?**
 
 R: El push es rechazado debido a que no puede empatar los cambios nuevos que incluye la rama local al remoto. Requiere pull para importar los cambios que contiene el repositorio remoto, y hacer una fusión con los cambios del local.
+
+**Por qué trabajar en una rama en lugar de directamente en *main*?
+
+R: Para no afectar el código que ya funciona en main, o arriesgarlo. De esta forma se trabaja de forma ajena o indirectamente relacionada, para posibles pruebas de añadidos de herramientas, u optimizaciones.
