@@ -14,3 +14,6 @@ R: Hora, fecha, autor, y mensaje del commit. Adicionalmente en detalle, guarda e
 
 **¿Por qué no deberías subir los Excel reales de tu trabajo a un repo público, y por qué no basta con borrarlos después si se te escaparon?**
 R: Porque contienen información sensible de la empresa, con confidencialidad. No basta con borrarlos después porque la información aún continuaría agregada en commits pasados.
+
+**¿Qué hace -u y por qué solo se usa la primera vez?
+R: Permite establecer una conexión entre la rama local y la rama main del repositorio para evitar situar argumentos en cada ocasión que se realice una carga a través de *push*.
