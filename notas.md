@@ -31,3 +31,7 @@ R: El push es rechazado debido a que no puede empatar los cambios nuevos que inc
 **Por qué trabajar en una rama en lugar de directamente en *main*?
 
 R: Para no afectar el código que ya funciona en main, o arriesgarlo. De esta forma se trabaja de forma ajena o indirectamente relacionada, para posibles pruebas de añadidos de herramientas, u optimizaciones.
+
+**Qué te está diciendo Git cuando marca un conflicto?**
+
+R: No necesariamente indica que existe un problema genuino, sino un choque entre versiones que requiere resolverse. Git no lo resuelve de forma autónoma porque requiere de toma de decisiones manual para la resolución.
