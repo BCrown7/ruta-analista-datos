@@ -14,3 +14,4 @@
 - 'git switch': Crea o cambia a la rama seleccionada.
 - 'git merge': Realiza la unión de los cambios de las branch por medio de la main que lo solicita.
 - 'git pull': Extrae los cambios cargados al repositorio con el commit más actual.
+- 'git clone': Realiza la copia de un repositorio en el directorio puesto.
