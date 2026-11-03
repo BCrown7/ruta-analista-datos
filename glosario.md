@@ -15,3 +15,10 @@
 - 'git merge': Realiza la unión de los cambios de las branch por medio de la main que lo solicita.
 - 'git pull': Extrae los cambios cargados al repositorio con el commit más actual.
 - 'git clone': Realiza la copia de un repositorio en el directorio puesto.
+
+## Sub-comandos
+
+- 'git restore *archivo*': Restaura un archivo que aún no es procesado por commit
+- 'git restore --stage *archivo*: Restaura un archivo que ya se proceso en stage con *add*
+- 'git commit --amend': Restaura el estatus del último commit antes del cargarse al repositorio con push
+- 'git revert *hash*: Revierte el último commit ya cargado al repositorio.
