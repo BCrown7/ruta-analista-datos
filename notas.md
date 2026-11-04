@@ -1,4 +1,6 @@
-## Notas de sesiones Github
+## Notas de sesiones
+
+### Github
 
 **¿Por qué el correo de git config debe ser el mismo que el de GitHub?**
 
@@ -35,3 +37,9 @@ R: Para no afectar el código que ya funciona en main, o arriesgarlo. De esta fo
 **Qué te está diciendo Git cuando marca un conflicto?**
 
 R: No necesariamente indica que existe un problema genuino, sino un choque entre versiones que requiere resolverse. Git no lo resuelve de forma autónoma porque requiere de toma de decisiones manual para la resolución.
+
+### Python
+
+¿Qué diferencia hay entre la consola interactiva y un script? ¿Por qué 2 + 3 muestra 5 en la consola pero no muestra nada en un script?
+
+R: La consola interactiva resuelve los argumentos de lógica y los imprime, pero un script requiere de solicitud de impresión para dar el resultado en lugar de resolverlo y descartarlo. La consolta interactiva lleva por nombre REPL (Read, Eval, Print, Loop).
