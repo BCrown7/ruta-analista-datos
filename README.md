@@ -22,10 +22,10 @@ ruta-analista-datos/
 ├─ notas.md         # Preguntas de comprobación para cada sesión
 ├─ glosario.md      # Comandos y conceptos, explicados con mi propio aprendizaje
 ├─ datos/           # Datos ficticios generados para práctica
+├─ etapa-2-python   # Archivos de práctica para la etapa de Python
 ```
 
 ## Como leer el repositorio (actual)
 
 - [notas.md](notas.md): Mi razonamiento por cada sesión.
 - [glosario.md](glosario.md): Comandos de referencia con explicación de función.
-

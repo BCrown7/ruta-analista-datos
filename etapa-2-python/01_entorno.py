@@ -42,9 +42,9 @@ print("Ventas:", 10 + 5)
 # la operación en el segundo argumento del print.
 
 print("Ventas: " + "10" + "5")
-# Predicción: Ventas 105
+# Predicción: Ventas: 105
 # Los números están envueltos en "", lo que los convierte en cadenas de texto, el
-# print une dos cadenas de texto como uniriía una "A" con una "B".
+# "+" une dos cadenas de texto como uniriía una "A" con una "B".
 
 print("10" * 2, 10 * 2)
 # Predicción: 1010 20
@@ -54,4 +54,5 @@ print("10" * 2, 10 * 2)
 print("Fin", end="")
 print("!")
 # Predicción: Fin!
-# Al realizar un salto de línea con end, unifica los dos prints en una única línea.
+# El uso de end elimina el salto de linea del primer print
+# y unifica los dos prints en una única línea.
