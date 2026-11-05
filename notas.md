@@ -40,6 +40,10 @@ R: No necesariamente indica que existe un problema genuino, sino un choque entre
 
 ### Python
 
-¿Qué diferencia hay entre la consola interactiva y un script? ¿Por qué 2 + 3 muestra 5 en la consola pero no muestra nada en un script?
+1. ¿Qué diferencia hay entre la consola interactiva y un script? ¿Por qué 2 + 3 muestra 5 en la consola pero no muestra nada en un script?
 
 R: La consola interactiva resuelve los argumentos de lógica y los imprime, pero un script requiere de solicitud de impresión para dar el resultado en lugar de resolverlo y descartarlo. La consolta interactiva lleva por nombre REPL (Read, Eval, Print, Loop).
+
+2. Un ISBN como 9786071612345 está formado solo por dígitos. ¿Por qué conviene guardarlo como str y no como int?
+
+R: Porque funge como un identificador, y el identificador no necesita ser modificado de ninguna forma mediante operadores matemáticos.
