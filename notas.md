@@ -30,7 +30,7 @@ R: Permite establecer una conexión entre la rama local y la rama main del repos
 
 R: El push es rechazado debido a que no puede empatar los cambios nuevos que incluye la rama local al remoto. Requiere pull para importar los cambios que contiene el repositorio remoto, y hacer una fusión con los cambios del local.
 
-**Por qué trabajar en una rama en lugar de directamente en *main*?
+**Por qué trabajar en una rama en lugar de directamente en *main*?**
 
 R: Para no afectar el código que ya funciona en main, o arriesgarlo. De esta forma se trabaja de forma ajena o indirectamente relacionada, para posibles pruebas de añadidos de herramientas, u optimizaciones.
 
@@ -47,3 +47,7 @@ R: La consola interactiva resuelve los argumentos de lógica y los imprime, pero
 2. Un ISBN como 9786071612345 está formado solo por dígitos. ¿Por qué conviene guardarlo como str y no como int?
 
 R: Porque funge como un identificador, y el identificador no necesita ser modificado de ninguna forma mediante operadores matemáticos.
+
+3. En el Paso 3 Sesión 3, ¿por qué una versión da error y la otra no, si las dos condiciones son exactamente las mismas?
+
+R: Porque primero verifica que la condición se cumpla, y como ZeroDivision Error no permite llegar a la verificación booleanea, al invertir los valores, y cumplirse la condición como False, detiene la división y evita el lanzamiento de error.
