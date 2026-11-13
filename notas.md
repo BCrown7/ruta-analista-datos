@@ -51,3 +51,7 @@ R: Porque funge como un identificador, y el identificador no necesita ser modifi
 3. En el Paso 3 Sesión 3, ¿por qué una versión da error y la otra no, si las dos condiciones son exactamente las mismas?
 
 R: Porque primero verifica que la condición se cumpla, y como ZeroDivision Error no permite llegar a la verificación booleanea, al invertir los valores, y cumplirse la condición como False, detiene la división y evita el lanzamiento de error.
+
+4. En el Paso 3, ¿por qué el código daba resultados incorrectos si todas las condiciones eran correctas? ¿Qué regla general sacas sobre el orden de los elif?
+
+R: Las condiciones deben fijarse en un orden en que desea buscarse, una condición que pide mayor a 0 cumple igual que una que pide mayor a 100 si la selección es 110, en cambio si primero se pide mayor a 100 y después a 0, 110 será cumplida primero por mayor a 100. Python ejecuta solo la primera condición verdadera, los elif van de lo más específico a lo más general.
